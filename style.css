@@ -1,0 +1,163 @@
+/* Reset básico */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  color: #333;
+}
+
+/* Corpo da página */
+body {
+  background-color: #f7f9f4;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+/* Container principal */
+.container {
+  max-width: 900px;
+  margin: 0 auto;
+  background-color: #fff;
+  padding: 30px 40px;
+  box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  border-radius: 8px;
+}
+
+/* Títulos principais */
+h1, h2, h3 {
+  color: #2c6e49; /* verde campo */
+  margin-bottom: 12px;
+  font-weight: 700;
+}
+
+/* Título do projeto */
+h1 {
+  font-size: 2.8rem;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+/* Subtítulos */
+h2 {
+  font-size: 1.8rem;
+  border-bottom: 3px solid #87a96b; /* verde claro */
+  padding-bottom: 6px;
+  margin-top: 40px;
+  margin-bottom: 20px;
+}
+
+/* Texto geral */
+p, li {
+  font-size: 1.1rem;
+  margin-bottom: 15px;
+  color: #444;
+}
+
+/* Listas */
+ul {
+  margin-left: 20px;
+  margin-bottom: 20px;
+  list-style-type: disc;
+}
+
+li {
+  margin-bottom: 10px;
+}
+
+/* Emojis alinhados com texto */
+.emoji {
+  font-size: 1.3rem;
+  margin-left: 6px;
+}
+
+/* Tabela do cronograma */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-bottom: 30px;
+}
+
+table th, table td {
+  border: 1px solid #a4c3a2;
+  padding: 10px 12px;
+  text-align: center;
+  font-size: 1rem;
+  color: #2f4f2f;
+}
+
+table th {
+  background-color: #d7e5d4;
+  font-weight: 600;
+}
+
+/* Barras de atividade (opcional para visual) */
+.activity-bar {
+  height: 18px;
+  border-radius: 8px;
+  margin-top: 5px;
+  background: linear-gradient(90deg, #2c6e49 0%, #87a96b 100%);
+}
+
+/* Contatos */
+.contact-info {
+  margin-top: 15px;
+  font-size: 1.1rem;
+  color: #2c3e50;
+}
+
+.contact-info a {
+  color: #2c6e49;
+  text-decoration: none;
+  font-weight: 600;
+}
+
+.contact-info a:hover {
+  text-decoration: underline;
+}
+
+/* Destaques */
+.highlight {
+  background-color: #e6f0d4;
+  border-left: 6px solid #6b8e23;
+  padding: 10px 15px;
+  margin-bottom: 20px;
+  font-style: italic;
+  color: #556b2f;
+}
+
+/* Botões (caso queira usar depois) */
+button, .btn {
+  background-color: #2c6e49;
+  color: white;
+  border: none;
+  padding: 10px 20px;
+  border-radius: 25px;
+  cursor: pointer;
+  font-weight: 600;
+  transition: background-color 0.3s ease;
+}
+
+button:hover, .btn:hover {
+  background-color: #87a96b;
+}
+
+/* Responsividade simples */
+@media (max-width: 600px) {
+  .container {
+    padding: 20px;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h2 {
+    font-size: 1.4rem;
+  }
+
+  table th, table td {
+    font-size: 0.9rem;
+    padding: 8px 6px;
+  }
+}
